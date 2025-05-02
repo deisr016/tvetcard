@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hizami bin Mohammad Noor - Digital Business Card</title>
+    <style>
+        body {
+            font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #003366 0%, #005580 100%);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            position: relative;
+            overflow: hidden;
+        }
+        .grain {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://grainy-gradients.vercel.app/noise.svg');
+            opacity: 0.07;
+            pointer-events: none;
+            z-index: 0;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 25px 20px;
+            width: 100%;
+            max-width: 420px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+        .logos {
+            margin-bottom: 20px;
+        }
+        .logos img {
+            max-height: 50px;
+            margin: 0 8px;
+            vertical-align: middle;
+        }
+        h1 {
+            font-size: 24px;
+            color: #004d40;
+            margin: 16px 0 10px;
+        }
+        .title {
+            font-size: 16px;
+            color: #c62828;
+            font-weight: bold;
+        }
+        .org {
+            font-size: 15px;
+            color: #555;
+            margin-bottom: 6px;
+        }
+        .subtext {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            font-size: 15px;
+            color: #333;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+        .contact-info a {
+            color: #00695c;
+            text-decoration: none;
+        }
+        .address {
+            font-size: 14px;
+            color: #444;
+            margin-bottom: 8px;
+        }
+        .tagline {
+            font-size: 13px;
+            font-style: italic;
+            color: #888;
+            margin-bottom: 24px;
+        }
+        .qr-code img {
+            width: 160px;
+            margin-bottom: 10px;
+        }
+        .download-link a {
+            font-size: 15px;
+            color: #00695c;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="grain"></div>
+    <div class="card">
+        <div class="logos">
+            <img src="AWISAR.png" alt="AWISAR Logo">
+            <img src="SS-LOGO.png" alt="Sarawak Skills Logo">
+        </div>
+        <h1>Hizami bin Mohammad Noor</h1>
+        <div class="title">TVET Executive</div>
+        <div class="org">Automotive & Welding Institute of Sarawak (AWISAR)</div>
+        <div class="subtext">(A subsidiary company of Sarawak Skills)</div>
+        <div class="contact-info">
+            Email: <a href="mailto:hizami@sarawakskills.edu.my">hizami@sarawakskills.edu.my</a><br>
+            Phone: <a href="tel:+60168955582">+60168955582</a><br>
+            Website: <a href="https://sarawakskills.edu.my/awisar/" target="_blank">sarawakskills.edu.my/awisar/</a>
+        </div>
+        <div class="address">
+            AWISAR SDN BHD<br>
+            Lot 1265, Block 8, MTLD,<br>
+            Demak Laut Industrial Estate, Phase II A,<br>
+            off Jalan Bako, 93050 Kuching, Sarawak, Malaysia
+        </div>
+        <div class="download-link">
+            <a href="hizami_business_card.vcf" download>📥 Download Contact File Directly to Your Phone (.vcf)</a>
+        </div>
+    </div>
+</body>
+</html>
